@@ -1,0 +1,66 @@
+/* THIS IS ALL CSS FOR INDEX.HTML */
+.jumbotron{
+
+    text-align: center;
+    background-color: white !important;
+  
+}
+.jumbotron h1{
+    font-weight: bold;
+}
+.jumbotron p{
+    font-weight: none ;
+}
+
+.timer{
+    text-align: right;
+}
+button{
+    background-color: blueviolet !important;
+    color: white !important;
+}
+.container1{
+    visibility: hidden;
+    float: center;
+    margin-top: -20vh;
+  
+}
+
+
+.button1{
+    width: 15vh;
+    margin-left: -75%;
+}
+.button2{
+    width: 15vh;
+    margin-left: -75%;
+}
+.button3{
+    width: 15vh;
+    margin-left: -75%;
+}
+.button4{
+    width: 15vh;
+    margin-left: -75%;
+}
+.container2 {
+    visibility: hidden;
+    margin-top: -20vh;
+}
+.container2 h2{
+    font-weight: none;
+    font-size: medium;
+}
+.container3{
+    visibility: hidden;
+    margin-top: -20vh;
+}
+.card{
+    visibility: hidden;
+    margin-top: -20vh;
+}
+/* THIS IS CSS ELEMENTS FOR RESULTS.HTML */
+.result{
+    text-align: center;
+    background-color: white !important;
+}
