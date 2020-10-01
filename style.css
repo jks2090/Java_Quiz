@@ -27,19 +27,19 @@ button{
 }
 
 
-.button1{
+#A{
     width: 15vh;
     margin-left: -75%;
 }
-.button2{
+#B{
     width: 15vh;
     margin-left: -75%;
 }
-.button3{
+#C{
     width: 15vh;
     margin-left: -75%;
 }
-.button4{
+#D{
     width: 15vh;
     margin-left: -75%;
 }
@@ -59,8 +59,20 @@ button{
     visibility: hidden;
     margin-top: -20vh;
 }
+.rightOrWrong{
+    visibility: hidden;
+}
 /* THIS IS CSS ELEMENTS FOR RESULTS.HTML */
 .result{
+    text-align: center;
+    background-color: white !important;
+}
+#correctOrIncorrect{
+    text-decoration-color:grey;
+    margin-top: 20vh !important;
+    visibility: hidden;
+}
+#highScores{
     text-align: center;
     background-color: white !important;
 }

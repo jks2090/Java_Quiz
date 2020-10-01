@@ -30,23 +30,24 @@
         </p>
         <button class="buttonStart" id="start" onClick="myFunction()" >Start Quiz</button>
         <br>
-    <div class=" container container1" id="question">
+    <div class=" container container1" id="choices">
         <h2 id="questionHeader"> this is text for test question</h2>
-        <button class="button1" id="button1" type="button" class="btn btn-primary btn-sm">Question 1</button>
+        <button class="button1" id="A" type="button" class="btn btn-primary btn-sm" onClick="checkAnswer('A')">A</button>
         <br>
-        <button class="button2" id="button2" type="button" class="btn btn-primary btn-sm">Question 2</button>
+        <button class="button2" id="B" type="button" class="btn btn-primary btn-sm" onClick="checkAnswer('B')">B</button>
         <br>
-        <button class="button3" id="button3" type="button"  class="btn btn-primary btn-sm">Question 3</button>
+        <button class="button3" id="C" type="button"  class="btn btn-primary btn-sm" onClick="checkAnswer('C')">C</button>
         <br>
-        <button class="button4" id="button4" type="button"  class="btn btn-primary btn-sm">Question 4</button>
+        <button class="button4" id="D" type="button"  class="btn btn-primary btn-sm" onClick="checkAnswer('D')">D</button>
     </div>
 
         <div class="card" id="card">
-          <h2>Sign Up</h2>
+          <h2>Time is Up!</h2>
+          <p> your score is: <span id ="yourFinalScore"></span></p>
           <form method="POST">
             <div class="input-group">
               <label for="userName">input user name</label>
-              <input type="text" name="email" id="email" placeholder="user name" />
+              <input type="text" name="initials" id="yourInitials" placeholder="your initials" />
             </div>
            
             
@@ -54,6 +55,7 @@
             <button id="submit" onClick="submitScore()">Submit Score and start over</button>
           </form>
         </div>
+        <div class="container" id="correctOrIncorrect" >correct or incorrect</div>
     
             
        
